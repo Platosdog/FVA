@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { CalendarModule } from '@syncfusion/ej2-angular-calendars';
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 import { SigninGoogleComponent } from './account/signin-google/signin-google.component';
 
 @NgModule({
@@ -12,7 +12,8 @@ import { SigninGoogleComponent } from './account/signin-google/signin-google.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
