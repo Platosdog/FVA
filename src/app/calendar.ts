@@ -11,7 +11,7 @@ const year = today.getFullYear();
 @Component({
   selector: 'date-range-picker-comparison-example',
   templateUrl: 'calendar.html',
-  styleUrls: ['app.component.css'],
+  styleUrls: ['calendar.css'],
   standalone: true,
   imports: [
     MatFormFieldModule,
